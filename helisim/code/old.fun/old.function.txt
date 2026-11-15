@@ -1,0 +1,145 @@
+
+mainwindow.h:
+
+    mrotorfile_structure  mrotorfile;
+    trotorfile_structure  trotorfile;
+    balancefile_structure balancefile;
+    QProcess *process, *process_glrotor, *process_landing;
+    QStringList arg, arg_hc, arg_bal, arg_tr;
+    QString module_balance, module_glrotor, module_landing;
+
+-------------------------------------------------------------------------------
+mainwindow.cpp:
+
+bool MainWindow::runRotors(QProcess *proc, QStringList arg)
+{
+    bool proc_err = 0;
+    QByteArray proc_glrotor_out;
+    proc->start( module_glrotor, arg );
+    if(!proc->waitForFinished(2000)) proc_err=1; else proc_err=0;//-1
+    proc_glrotor_out = proc->readAll();
+    ui->memout->appendPlainText( module_glrotor + "  " + arg.at(0) + "  " + arg.at(1) + " : " + proc_glrotor_out);
+    //ui->memout->appendPlainText( proc_glrotor_out );
+    return proc_err;
+}
+
+bool MainWindow::runBalance(QProcess *proc, QStringList arg)
+{
+    bool proc_err = 0;
+    QByteArray proc_balance_out;
+    proc->start( module_balance, arg );
+    if(!proc->waitForFinished(2000)) proc_err=1; else proc_err=0;//-1
+    proc_balance_out = proc->readAll();
+    ui->memout->appendPlainText( module_balance + "  " + arg.at(0) + "  " + arg.at(1) + " : " + proc_balance_out);
+    //ui->memout->appendPlainText( proc_balance_out );
+    return proc_err;
+}
+
+-------------------------------------------------------------------------------
+
+int MainWindow::readFloatArr(string finded, float *ff)
+{
+ //vector<int> res;
+ int  _;  _=0;
+ float temp;
+ bool retry = false; //флаг попытки поиска
+ long curpos, lastPosition;//текущее и последнее положение каретки
+
+ do
+ {
+    fscanf(sFile, "%s", s);
+    //сохранить текущее положение каретки
+    curpos = ftell(sFile);
+    if (curpos >= lastPosition)
+    {
+       fseek(sFile, 0, SEEK_SET);//каретку на начало
+       if (retry == true)   break;
+       else  retry = true;
+    }
+    //если строка нашлась
+    if (strcmp(s, finded.c_str())==0)
+    {
+       while (fscanf(sFile,"%f",&temp)==1)
+           *(ff + _++) = temp; //добавление элемента в конец массива
+
+       if (_<2 || *(ff + 0) == 0)   notReaded.push_back(finded); //ошибка при считывании
+
+       return 1;
+    }
+ } while (true);
+
+ //если строка не нашлась
+ notFounded.push_back(finded);
+ return 0;
+}
+
+bool MainWindow::find_Xmass_(QTextStream *in, QString searchString, float mass[mass1], int &ncol)
+{//считывание одномерного массива
+    in->seek(0);
+    bool finded = false, isbreak = false;
+    QString line, findS;
+    QStringList fields;
+    QRegExp rx("\\s");
+    QString ss;
+
+    while((!in->atEnd())&&(!isbreak))
+    {
+        line = in->readLine();
+        fields = line.split(rx, QString::SkipEmptyParts);
+        if(fields.size()>=1)
+        {
+            for(int i=0; i<fields.size(); i++)
+            {
+                findS = fields.at(i);
+                if(findS==searchString)
+                {
+                    ncol = 0;
+                    for(int j=i+1; j<fields.size(); j++)
+                    {
+                        mass[ncol] = fields.at(j).toFloat();
+                        ncol++;
+                    }
+                    finded = true; isbreak=true;  break;
+                }
+            }
+        }
+    }
+return !finded;
+}
+
+bool MainWindow::find_XmassI(QTextStream *in, QString searchString, int mass[mass1], int &ncol)
+{//считывание одномерного массива
+    in->seek(0);
+    bool finded = false, isbreak = false;
+    QString line, findS;
+    QStringList fields;
+    QRegExp rx("\\s");
+    QString ss;
+
+    while((!in->atEnd())&&(!isbreak))
+    {
+        line = in->readLine();
+        fields = line.split(rx, QString::SkipEmptyParts);
+        if(fields.size()>=1)
+        {
+            for(int i=0; i<fields.size(); i++)
+            {
+                findS = fields.at(i);
+                if(findS==searchString)
+                {
+                    ncol = 0;
+                    for(int j=i+1; j<fields.size(); j++)
+                    {
+                        mass[ncol] = fields.at(j).toInt();
+                        ncol++;
+                    }
+                    finded = true; isbreak=true;  break;
+                }
+            }
+        }
+    }
+return !finded;
+}
+
+-------------------------------------------------------------------------------
+

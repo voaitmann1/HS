@@ -1,0 +1,303 @@
+расчет балансировки: подробный вывод
+-------------------------------------------------------------
+.ya   D:\helisim\test.yA
+.geo  d:\helisim\test.geo
+.ax   d:\helisim\test.ax
+.gl   d:\helisim\test.gl
+.glmr d:\helisim\test.glmr
+.gltr d:\helisim\test.gltr
+-------------------------------------------------------------
+и с х о д н ы е  д а н н ы е :
+      ro=  	0.000 
+      p0=  	101325.000 
+      g=   	9.80665 
+      Lpt= 	0.00650 
+      RjmK=	8.31447 
+      RjkgK=	287.000 
+      Mm=   	0.028964 
+
+   параметры полета:
+      Hh=  	0.0 
+      Vhx=	120.0 
+      loc=	4 
+      tetra=	0.000 
+      beta_=	0.000 
+
+   планер:
+      mh=  	3550.0 
+      xtmr=	0.165 
+      ytmr=	1.700 
+      ztmr=	0.000 
+      x_mr=	0.000 
+      y_mr=	1.922 
+      z_mr=	0.000 
+      x_f=	0.000 
+      y_f=	0.000 
+      z_f=	0.000 
+      x_st=	-6.426 
+      y_st=	-0.018 
+      z_st=	0.000 
+      x_tr=	-8.767 
+      y_tr=	0.797 
+      z_tr=	0.445 
+      eps_f=	0.073601 
+      fi0_min=	0.017453 
+      fi0_max=	0.226893 
+      est_min=	-0.366519 
+      est_max=	-0.087266 
+      lmodel=	0.760 
+      Smodel=	0.012 
+      Mmodel=	16.450 
+
+   несущий винт:
+      w_mr=	25.793 
+      R_mr=	7.250 
+      zl_mr=	3 
+      Sgsh_mr=	197.00 
+      B_mr=	0.970 
+      D1_mr_=	1.564683 
+      D2_mr_=	-0.088330 
+      k_=  	0.400 
+      Rap=	0.265 
+      ll=  	0.157 
+      lgsh=	0.102 
+      lvsh=	0.262 
+      dgsh=	0.035 
+      dpsi_cont=	0.436332 
+      T_mr_=	35527.520 
+      H_mr_=	1674.038 
+      S_mr_=	-262.093 
+      Mx_mr_=	256.192 
+      My_mr_=	9350.740 
+      Mz_mr_=	-905.401 
+      alfa_mr__=	-0.073548 
+      kapa_mr_=	-0.016685 
+      eta_mr_=	0.003875 
+      fi0_mr_=	0.181060 
+
+   рулевой винт:
+      T_tr_=	-944.835 
+      H_tr_=	0.000 
+      S_tr_=	0.000 
+      Mx_tr_=	0.000 
+      My_tr_=	60.700 
+      Mz_tr_=	0.000 
+
+   аэродинамические характеристики:
+      __alfa_f: 26cols;
+      __eps_st: 11cols;
+      __cx_st=f(_eps_st,_alfa_f): 11rows, 26cols;
+      __cy_st=f(_eps_st,_alfa_f): 11rows, 26cols;
+      __mz_st=f(_eps_st,_alfa_f): 11rows, 26cols;
+      _alfa_f: 26cols;
+      _cx_f=f(_alfa_f): 26cols;
+      _cy_f=f(_alfa_f): 26cols;
+      _cz_f=f(_alfa_f): 26cols;
+      _mx_f=f(_alfa_f): 26cols;
+      _my_f=f(_alfa_f): 26cols;
+      _mz_f=f(_alfa_f): 26cols;
+      _mz_fst=f(_eps_st,_alfa_f): 11rows, 26cols;
+      _Vvol_mr: 101cols;
+      _delta_mr: 9cols;
+      _uvol_mr=f(_Vvol_mr,_delta_mr): 101rows, 9cols;
+      _h_: 9cols;
+      _Ksi3n_: 9cols;
+
+-------------------------------------------------------------
+п о д г о т о в к а  к  р а с ч е т у :
+      roh=  	1.225
+      D_1=  	1.60001
+      D_2=  	0.53754
+      D1_mr=	1.56468
+      D2_mr=	-0.08833
+      xT=  	0.16500
+      yT=  	0.22200
+      zT=  	0.00000
+      Vi=  	33.333
+
+-------------------------------------------------------------
+р а с ч е т : 
+      status of SolvEquation(1):  0	r=7.362047  	x_lo=7.362045  	x_hi=7.362047
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=0.139464  	x_lo=0.139464  	x_hi=0.139600
+      status of SolvEquation(3):  0	r=0.118123  	x_lo=0.118123  	x_hi=0.118123
+      status of SolvEquation(3):  0	r=0.090329  	x_lo=0.090329  	x_hi=0.090329
+      status of SolvEquation(3):  0	r=0.066627  	x_lo=0.066627  	x_hi=0.066627
+      status of SolvEquation(3):  0	r=0.031992  	x_lo=0.031992  	x_hi=0.031992
+      status of SolvEquation(3):  0	r=0.005817  	x_lo=0.005817  	x_hi=0.005817
+      status of SolvEquation(3):  0	r=-0.019389  	x_lo=-0.019389  	x_hi=-0.019389
+      status of SolvEquation(3):  0	r=-0.046533  	x_lo=-0.046533  	x_hi=-0.046533
+      status of SolvEquation(3):  0	r=-0.062044  	x_lo=-0.062044  	x_hi=-0.062044
+      status of SolvEquation(3):  0	r=-0.081433  	x_lo=-0.081433  	x_hi=-0.081433
+      status of SolvEquation(3):  0	r=-0.117018  	x_lo=-0.117018  	x_hi=-0.117018
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=-0.139464  	x_lo=-0.139600  	x_hi=-0.139464
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=-0.139464  	x_lo=-0.139600  	x_hi=-0.139464
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=-0.139464  	x_lo=-0.139600  	x_hi=-0.139464
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=-0.139464  	x_lo=-0.139600  	x_hi=-0.139464
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=-0.139464  	x_lo=-0.139600  	x_hi=-0.139464
+      status of SolvEquation(3):  GSL_WARNING: 4, status: 0	r=-0.139464  	x_lo=-0.139600  	x_hi=-0.139464
+      status of SolvEquation(1):  0	r=13.731473  	x_lo=13.731473  	x_hi=13.731473
+      status of SolveSystemNL4(): 
+      1  	x1=-0.0000275  	x2=0.0000448  	x3=0.0003247  	x4=-11.1714936  	y1=236.67187  	y2=498.63275  	y3=8215.73470  	y4=361.58886
+      2  	x1=-0.0000825  	x2=0.0001336  	x3=0.0009748  	x4=-33.5151328  	y1=231.83092  	y2=473.52327  	y3=8016.10657  	y4=354.00731
+      3  	x1=-0.0001929  	x2=0.0003072  	x3=0.0022780  	x4=-78.2050590  	y1=222.45853  	y2=423.85709  	y3=7616.81071  	y4=338.80126
+      4  	x1=-0.0004151  	x2=0.0006382  	x3=0.0048953  	x4=-167.5958370  	y1=204.98247  	y2=326.84199  	y3=6818.05955  	y4=308.20922
+      5  	x1=-0.0008662  	x2=0.0012283  	x3=0.0101708  	x4=-346.4240085  	y1=175.38161  	y2=143.07743  	y3=5219.91557  	y4=246.18456
+      6  	x1=-0.0018051  	x2=0.0020329  	x3=0.0208304  	x4=-704.2925350  	y1=140.46713  	y2=-171.75925  	y3=2021.14956  	y4=117.36889
+      7  	x1=-0.0026171  	x2=-0.0006113  	x3=0.0193285  	x4=-935.8034719  	y1=1.17691  	y2=-1.63380  	y3=-0.00719  	y4=3.33934
+      8  	x1=-0.0026375  	x2=-0.0006265  	x3=0.0192737  	x4=-935.8384721  	y1=0.02377  	y2=0.02298  	y3=0.00016  	y4=0.49852
+      9  	x1=-0.0026408  	x2=-0.0006264  	x3=0.0192736  	x4=-935.8385952  	y1=0.00104  	y2=0.00323  	y3=0.00009  	y4=0.03978
+      10  	x1=-0.0026411  	x2=-0.0006264  	x3=0.0192736  	x4=-935.8385842  	y1=0.00006  	y2=0.00002  	y3=-0.00011  	y4=0.00023
+      status(SolveSystemNL4)=0
+      расчет выполнен
+
+-------------------------------------------------------------
+р е з у л ь т а т ы :
+      dkapa=        -0.00264108 рад
+      deta=         -0.00062638 рад
+      kren=         0.019274 рад (=gama)
+      T_tr=         -935.839 Н
+      ufn=          0.030005 рад
+      CxS=          1.590686 
+      tau_obd=      0.020657 
+      Xneed=        933.717 Н
+      Yneed=        35536.980 Н
+      proX=         -2.5571 %
+      proY=         -0.0461 %
+      proTtr=       -0.9613 %
+
+   несущий винт:
+      dH_mr=        -148.781 Н
+      dS_mr=        -26.532 Н
+      H_mr=         1525.257 Н
+      T_mr=         35527.520 Н
+      S_mr=         -288.625 Н
+      Mx_mr=        221.638 Н*м
+      My_mr=        9350.740 Н*м
+      Mz_mr=        -824.918 Н*м
+      FMmr.Fx=      -1525.257 Н
+      FMmr.Fy=      35527.520 Н
+      FMmr.Fz=      288.625 Н
+      FMmr.Mx=      333.099 Н*м
+      FMmr.My=      9350.740 Н*м
+      FMmr.Mz=      3756.462 Н*м
+
+   рулевой винт:
+      H_tr=         0.000 Н
+      T_tr=         -935.839 Н
+      S_tr=         0.000 Н
+      Mx_tr=        0.000 Н*м
+      My_tr=        60.700 Н*м
+      Mz_tr=        0.000 Н*м
+      FMtr.Fx=      0.000 Н
+      FMtr.Fy=      0.000 Н
+      FMtr.Fz=      -935.839 Н
+      FMtr.Mx=      -745.583 Н*м
+      FMtr.My=      -8204.965 Н*м
+      FMtr.Mz=      60.700 Н*м
+
+   вес вертолета:
+      Gh=           34813.6 Н
+      tang=         -0.047783 рад
+      kren=         0.019274 рад
+      FMhg.Fx=      1662.871 Н
+      FMhg.Fy=      -34767.414 Н
+      FMhg.Fz=      670.176 Н
+      FMhg.Mx=      148.779 Н*м
+      FMhg.My=      -110.579 Н*м
+      FMhg.Mz=      -6105.781 Н*м
+
+   планер:
+      cx_f(alfa_f)= -0.479142 
+      cy_f(alfa_f)= -0.102789 
+      cz_f(alfa_f)= -0.010447 
+      mx_f(alfa_f)= 0.006800 
+      my_f(alfa_f)= -0.038274 
+      mz_f(alfa_f)= -0.019018 
+      alfa_mr_=     -0.047783 
+      alfa_mr=      -0.043595 
+      tang=         -0.047783 
+      miu=          0.178050 
+      u0_mr=        10.030145 
+      Vvol_mr=      3.323315 
+      Vx_mr=        33.295284 
+      Vy_mr=        1.592165 
+      delta_mr=     -0.000649 
+      uvol_mr=      0.290634 
+      u_mr=         2.915099 
+      uh_mr=        0.137206 
+      ut_mr=        2.911868 
+      i1_mr=        0.135009 
+      utau_mr=      0.255834 
+      unor_mr=      2.903851 
+      tau_mr=       6.628277 
+      nor_mr=       -1.057665 
+      x1_mr=        13.731473 
+      R1_mr=        7.168427 
+      hflow_mr=     0.964864 
+      Ksi1=         0.500000 
+      Ksi2=         1.991243 
+      Ksi3n=        0.983646 
+      Ksi3t=        0.000000 
+      ut_f_mr=      1.311325 
+      uh_f_mr=      0.178124 
+      V_f=          33.244194 
+      i1_mr_f=      0.087450 
+      dalf_f_mr=    0.013217 
+      alfa_f=       -0.013849 
+      u_f=          0.025817 
+      X_f=          -1053.192 Н  
+      Y_f=          -225.938 Н  
+      Z_f=          -22.962 Н  
+      Mx_f=         186.868 Н*м
+      My_f=         -1051.785 Н*м
+      Mz_f=         -522.621 Н*м
+      FMf.Fx=       -1033.726 Н   (-1033.755) 
+      FMf.Fy=       -302.772 Н    (-302.728 ) 
+      FMf.Fz=       -22.962 Н     (-22.973  ) 
+      FMf.Mx=       263.704 Н*м   ( 263.634 ) 
+      FMf.My=       -1035.196 Н*м (-1035.313) 
+      FMf.Mz=       -522.621 Н*м  (-522.564 ) 
+
+   стабилизатор:
+      ut_st_mr=     5.635931 
+      uh_st_mr=     0.765558 
+      V_st=         33.323093 
+      i1_mr_st=     0.218648 
+      dalf_st_mr=   0.144415 
+      dalf_st_f=    0.085530 
+      dalf_st=      0.229945 
+      eps_st0mr=    0.172980 
+      alfa_st=      -0.243114 
+      eps_st_pr_=   -0.143735 
+      eps_st_pr=    -0.143735 
+      X_st=         -48.017 Н  
+      Y_st=         -471.468 Н  
+      Z_st=         0.000 Н  
+      Mx_st=        0.000 Н*м
+      My_st=        0.000 Н*м
+      Mz_st=        2811.240 Н*м
+      FMst.Fx=      -13.218 Н    (-13.15  ) 
+      FMst.Fy=      -473.723 Н   (-473.571) 
+      FMst.Fz=      0.000 Н      ( 0      ) 
+      FMst.Mx=      0.000 Н*м    ( 0      ) 
+      FMst.My=      0.000 Н*м    ( 0      ) 
+      FMst.Mz=      2811.240 Н*м ( 2810.0 ) 
+
+сумма сил и моментов, действующих на вертолет:
+-------------------------------------------------------------
+      mr.Fx + g.Fx + tr.Fx + f.Fx + st.Fx =   -909.329590
+      mr.Fy + g.Fy + tr.Fy + f.Fy + st.Fy =   -16.389343
+      mr.Fz + g.Fz + tr.Fz + f.Fz + st.Fz =   0.000061
+      mr.Mx + g.Mx + tr.Mx + f.Mx + st.Mx =   0.000015
+      mr.My + g.My + tr.My + f.My + st.My =   -0.000114
+      mr.Mz + g.Mz + tr.Mz + f.Mz + st.Mz =   0.000233
+-------------------------------------------------------------
+
+outfileName: d:\helisim\test.bal

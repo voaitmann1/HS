@@ -1,0 +1,10 @@
+ExeFile : D:/helisim/code/debug/helisim.exe
+Version : HeliSim 202307
+Initial : D:/helisim/ini/mi8/mi8-2023.hs
+Started : 2025.07.25 14:59:49
+CalcMode: расчет винтов с заданным управлением по классической теории
+------------------------------------------------------------------------------------------------------------------------
+MainRotor.Prepare:
+ok
+MainRotor.Solve:
+ClassicSpecified()...

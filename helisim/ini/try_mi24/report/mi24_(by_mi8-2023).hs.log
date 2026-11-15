@@ -1,0 +1,28 @@
+ExeFile : D:/Afonin/helisim/run/helisim.exe
+Version : HeliSim 202307
+Initial : D:/Afonin/helisim/ini/try_mi24/mi24_(by_mi8-2023).hs
+Started : 2023.10.18 14:24:30
+CalcMode: расчет винтов с заданным управлением по классической теории
+------------------------------------------------------------------------------------------------------------------------
+MainRotor.Prepare:
+ok
+MainRotor.Solve:
+ClassicSpecified()...
+warning=312
+ClassicForceSynth()...
+ok
+	alfa=   -4.477 грд
+	fi0=    13.122 грд
+	rpm=    192.0 об/мин
+	chi=    -5.823 грд
+	eta=    0.643 грд
+	T=      nan Н
+	Mkr=    nan Н·м
+	Nsum=   nan кВт
+	vt=     0.008 м/с
+
+MainRotor.Results: 
+saved to D:/Afonin/helisim/ini/try_mi24/report/mi24_(by_mi8-2023).hs.mrr
+------------------------------------------------------------------------------------------------------------------------
+Finished: 2023.10.18 14:24:32
+Elapsed : 0m 2s 356ms 

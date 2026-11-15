@@ -1,0 +1,697 @@
+HeliSim 202307
+----------------------------------------------------------------------
+i= 0
+t= 0.000000
+----------------------------------------------------------------------
+org(xyz)=        	0.00000   	3.00000   	0.00000
+org(krt)=        	2.314200   	0.000000   	0.031900
+ocw(xyz)=        	0.03280   	3.41849   	0.01691
+vn(xyz)=         	79.199997   	0.000000   	0.000000
+wn(krt)=         	0.000000   	0.000000   	0.000000
+an(xyz)=         	0.000000   	0.000000   	0.000000
+en(krt)=         	0.000000   	0.000000   	0.000000
+v(xyz)=          	79.199982   	-0.044059   	0.001781
+w(krt)=          	0.000000   	0.000000   	0.000000
+a(xyz)=          	0.000000   	0.454971   	0.000000
+e(krt)=          	0.000000   	0.000000   	0.000000
+n(xyz)=          	0.000000   	1.046394   	0.000000
+Fsum(xyz)=       	0.000   	5050.183   	0.000
+Msum(xyz)=       	0.000   	0.000   	0.000
+Fhg(xyz)=        	0.000   	0.000   	0.000
+Mhg(xyz)=        	0.000   	0.000   	0.000
+Fadp(xyz)=       	0.000   	0.000   	0.000
+Madp(xyz)=       	0.000   	0.000   	0.000
+Ffus(xyz)=       	0.000   	0.000   	0.000
+Mfus(xyz)=       	0.000   	0.000   	0.000
+Fstab(xyz)=      	0.000   	0.000   	0.000
+Fkeel(xyz)=      	0.000   	0.000   	0.000
+Fwing(xyz)=      	-6000.000   	0.000   	0.000
+Fmr(xyz)=        	0.000   	0.000   	0.000
+Mmr(xyz)=        	0.000   	0.000   	0.000
+Ftr(xyz)=        	0.000   	0.000   	0.000
+Mtr(xyz)=        	0.000   	0.000   	0.000
+Fpr(xyz)=        	0.000   	0.000   	0.000
+Mpr(xyz)=        	0.000   	0.000   	0.000
+Fsh(xyz)=        	0.000   	0.000   	0.000
+Msh(xyz)=        	0.000   	0.000   	0.000
+ct(xyz)=         	33.030   	418.810   	0.000
+vtp.Oxyz=        	0.000   	0.000   	0.000
+vtp.Qxyz=        	0.000   	0.000   	0.000
+vtp.Gxyz=        	0.000   	0.000   	0.000
+extload.F=       	0.000   	0.000   	0.000
+extload.pos=     	0.000   	0.000   	0.000
+----------------------------------------------------------------------
+shassi.nst=      	0
+----------------------------------------------------------------------
+mainrotor
+mr.O.x=          	206.0
+mr.O.y=          	2612.0
+mr.O.z=          	0.0
+mr.H_sr=         	nan
+mr.T_sr=         	nan
+mr.S_sr=         	nan
+mr.Mx_sr=        	nan
+mr.My_sr=        	nan
+mr.Mz_sr=        	nan
+mr.D=            	16782.0
+mr.eps_fz=       	-4.5094
+mr.eps_fx=       	0.0000
+mr.chi_hub=      	0.0000
+mr.eta_hub=      	0.0000
+mr.solve=        	1
+mr.eh=           	0.000000   	0.000000   	0.000000
+mr.wh=           	0.000000   	0.000000   	0.000000
+mr.ah=           	0.000000   	0.000000   	0.000000
+mr.vh=           	0.000000   	0.000000   	0.000000
+mr.dct=          	0.000   	0.000   	0.000
+mr.angbs=        	0.000
+mr.dctbs=        	0.000000
+mr.nb=           	5
+mr.nSec=         	43
+mr.sec07=        	26
+mr.revcount=     	0
+mr.psihub=       	0.0
+mr.fi0=          	13.122
+mr.chi=          	-5.823
+mr.eta=          	0.643
+mr.alfa=         	-4.477
+mr.beta=         	0.000
+mr.Fhx_sum=      	nan
+mr.Fhy_sum=      	nan
+mr.Fhz_sum=      	nan
+mr.Mhx_sum=      	nan
+mr.Mhy_sum=      	nan
+mr.Mhz_sum=      	nan
+----------------------------------------------------------------------
+mr.blade#        	1
+mr.b0.psi0=         	0.0000
+mr.b0.psi=          	0.0000
+mr.b0.fi07=         	nan
+mr.b0.dfi07=        	nan
+mr.b0.d2fi07=       	nan
+mr.b0.gama=         	nan
+mr.b0.dgama=        	nan
+mr.b0.d2gama=       	nan
+mr.b0.beta=         	nan
+mr.b0.dbeta=        	nan
+mr.b0.d2beta=       	nan
+mr.b0.ksi=          	nan
+mr.b0.dksi=         	nan
+mr.b0.d2ksi=        	nan
+mr.b0.T=            	nan
+mr.b0.Q=            	nan
+mr.b0.Ma=           	nan
+mr.b0.H=            	nan
+mr.b0.S=            	nan
+mr.b0.Nr=           	nan
+mr.b0.Nf=           	nan
+mr.b0.K=            	nan
+mr.b0.P1=           	nan
+mr.b0.P2=           	nan
+mr.b0.Fdmp=         	0.0
+mr.b0.Fpov=         	nan
+mr.b0.Paxz=         	0.0
+mr.b0.Payy=         	-0.0
+mr.b0.Fdmp=         	0.0
+mr.b0.Fy=           	nan
+mr.b0.Fx=           	nan
+mr.b0.Fz=           	nan
+mr.b0.M1T=          	nan
+mr.b0.M1Q=          	nan
+mr.b0.M1Gx=         	nan
+mr.b0.M1Gy=         	0.0
+mr.b0.M1K=          	nan
+mr.b0.M1Cx=         	nan
+mr.b0.M1Cy=         	nan
+mr.b0.M1Px=         	nan
+mr.b0.M1Py=         	nan
+mr.b0.M1x=          	nan
+mr.b0.M1y=          	nan
+mr.b0.M1z=          	0.0
+mr.b0.M2T=          	nan
+mr.b0.M2Q=          	nan
+mr.b0.M2Gx=         	nan
+mr.b0.M2Gy=         	0.0
+mr.b0.M2K=          	nan
+mr.b0.M2Cx=         	nan
+mr.b0.M2Cy=         	nan
+mr.b0.M2Px=         	nan
+mr.b0.M2Py=         	nan
+mr.b0.M2D=          	0.0
+mr.b0.M2x=          	nan
+mr.b0.M2y=          	nan
+mr.b0.M2z=          	0.0
+mr.b0.M3Ma=         	nan
+mr.b0.M3cb=         	nan
+mr.b0.M3su=         	nan
+mr.b0.M3tr=         	nan
+mr.b0.M3i=          	nan
+mr.b0.M3x=          	0.0
+mr.b0.M3y=          	0.0
+mr.b0.M3z=          	nan
+mr.b0.Fxh=          	nan
+mr.b0.Fyh=          	nan
+mr.b0.Fzh=          	nan
+mr.b0.Mxh=          	nan
+mr.b0.Myh=          	nan
+mr.b0.Mzh=          	nan
+_r,   	r,ì   	 alfr,ãğä  	fi,ãğä		gama,ãğä  	U,ì/ñ 		Ux,ì/ñ		Uy,ì/ñ		Fi,ãğä		lambda,		M,    		cy,   		cx,  		mz,  		dT,Í  		dQ,Í  		dMa,Íì 
+0.122	1.022	 nan	nan	nan	nan	nan	nan	nan	-0.036732	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.144	1.206	 nan	nan	nan	nan	nan	nan	nan	-0.036734	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.166	1.390	 nan	nan	nan	nan	nan	nan	nan	-0.036735	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.188	1.575	 nan	nan	nan	nan	nan	nan	nan	-0.036737	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.210	1.759	 nan	nan	nan	nan	nan	nan	nan	-0.036739	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.232	1.943	 nan	nan	nan	nan	nan	nan	nan	-0.036741	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.253	2.127	 nan	nan	nan	nan	nan	nan	nan	-0.036743	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.275	2.311	 nan	nan	nan	nan	nan	nan	nan	-0.036745	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.297	2.496	 nan	nan	nan	nan	nan	nan	nan	-0.036747	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.319	2.680	 nan	nan	nan	nan	nan	nan	nan	-0.036749	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.341	2.864	 nan	nan	nan	nan	nan	nan	nan	-0.036751	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.366	3.069	 nan	nan	nan	nan	nan	nan	nan	-0.036753	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.385	3.233	 nan	nan	nan	nan	nan	nan	nan	-0.036755	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.407	3.417	 nan	nan	nan	nan	nan	nan	nan	-0.036757	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.429	3.601	 nan	nan	nan	nan	nan	nan	nan	-0.036759	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.451	3.785	 nan	nan	nan	nan	nan	nan	nan	-0.036761	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.473	3.969	 nan	nan	nan	nan	nan	nan	nan	-0.036763	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.495	4.154	 nan	nan	nan	nan	nan	nan	nan	-0.036765	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.517	4.338	 nan	nan	nan	nan	nan	nan	nan	-0.036767	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.539	4.522	 nan	nan	nan	nan	nan	nan	nan	-0.036769	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.561	4.706	 nan	nan	nan	nan	nan	nan	nan	-0.036770	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.583	4.890	 nan	nan	nan	nan	nan	nan	nan	-0.036772	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.605	5.075	 nan	nan	nan	nan	nan	nan	nan	-0.036774	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.627	5.259	 nan	nan	nan	nan	nan	nan	nan	-0.036776	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.649	5.443	 nan	nan	nan	nan	nan	nan	nan	-0.036778	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.671	5.627	 nan	nan	nan	nan	nan	nan	nan	-0.036780	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.693	5.812	 nan	nan	nan	nan	nan	nan	nan	-0.036782	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.715	5.996	 nan	nan	nan	nan	nan	nan	nan	-0.036784	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.737	6.180	 nan	nan	nan	nan	nan	nan	nan	-0.036786	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.758	6.364	 nan	nan	nan	nan	nan	nan	nan	-0.036788	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.780	6.548	 nan	nan	nan	nan	nan	nan	nan	-0.036790	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.802	6.733	 nan	nan	nan	nan	nan	nan	nan	-0.036792	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.824	6.917	 nan	nan	nan	nan	nan	nan	nan	-0.036794	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.846	7.101	 nan	nan	nan	nan	nan	nan	nan	-0.036796	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.868	7.285	 nan	nan	nan	nan	nan	nan	nan	-0.036798	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.890	7.469	 nan	nan	nan	nan	nan	nan	nan	-0.036800	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.912	7.654	 nan	nan	nan	nan	nan	nan	nan	-0.036802	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.934	7.838	 nan	nan	nan	nan	nan	nan	nan	-0.036804	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.956	8.022	 nan	nan	nan	nan	nan	nan	nan	-0.036805	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036807	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036807	nan	0.000000	nan	0.000000	nan	nan	nan
+0.978	8.206	 nan	nan	nan	nan	nan	nan	nan	-0.036807	nan	0.000000	nan	0.000000	nan	nan	nan
+1.000	8.391	 nan	nan	nan	nan	nan	nan	nan	-0.036809	nan	0.000000	nan	0.000000	nan	nan	nan
+----------------------------------------------------------------------
+mr.blade#        	2
+mr.b1.psi0=         	288.0000
+mr.b1.psi=          	288.0000
+mr.b1.fi07=         	nan
+mr.b1.dfi07=        	nan
+mr.b1.d2fi07=       	nan
+mr.b1.gama=         	nan
+mr.b1.dgama=        	nan
+mr.b1.d2gama=       	nan
+mr.b1.beta=         	nan
+mr.b1.dbeta=        	nan
+mr.b1.d2beta=       	nan
+mr.b1.ksi=          	nan
+mr.b1.dksi=         	nan
+mr.b1.d2ksi=        	nan
+mr.b1.T=            	nan
+mr.b1.Q=            	nan
+mr.b1.Ma=           	nan
+mr.b1.H=            	nan
+mr.b1.S=            	nan
+mr.b1.Nr=           	nan
+mr.b1.Nf=           	nan
+mr.b1.K=            	nan
+mr.b1.P1=           	nan
+mr.b1.P2=           	nan
+mr.b1.Fdmp=         	0.0
+mr.b1.Fpov=         	nan
+mr.b1.Paxz=         	0.0
+mr.b1.Payy=         	-0.0
+mr.b1.Fdmp=         	0.0
+mr.b1.Fy=           	nan
+mr.b1.Fx=           	nan
+mr.b1.Fz=           	nan
+mr.b1.M1T=          	nan
+mr.b1.M1Q=          	nan
+mr.b1.M1Gx=         	nan
+mr.b1.M1Gy=         	0.0
+mr.b1.M1K=          	nan
+mr.b1.M1Cx=         	nan
+mr.b1.M1Cy=         	nan
+mr.b1.M1Px=         	nan
+mr.b1.M1Py=         	nan
+mr.b1.M1x=          	nan
+mr.b1.M1y=          	nan
+mr.b1.M1z=          	0.0
+mr.b1.M2T=          	nan
+mr.b1.M2Q=          	nan
+mr.b1.M2Gx=         	nan
+mr.b1.M2Gy=         	0.0
+mr.b1.M2K=          	nan
+mr.b1.M2Cx=         	nan
+mr.b1.M2Cy=         	nan
+mr.b1.M2Px=         	nan
+mr.b1.M2Py=         	nan
+mr.b1.M2D=          	0.0
+mr.b1.M2x=          	nan
+mr.b1.M2y=          	nan
+mr.b1.M2z=          	0.0
+mr.b1.M3Ma=         	nan
+mr.b1.M3cb=         	nan
+mr.b1.M3su=         	nan
+mr.b1.M3tr=         	nan
+mr.b1.M3i=          	nan
+mr.b1.M3x=          	0.0
+mr.b1.M3y=          	0.0
+mr.b1.M3z=          	nan
+mr.b1.Fxh=          	nan
+mr.b1.Fyh=          	nan
+mr.b1.Fzh=          	nan
+mr.b1.Mxh=          	nan
+mr.b1.Myh=          	nan
+mr.b1.Mzh=          	nan
+_r,   	r,ì   	 alfr,ãğä  	fi,ãğä		gama,ãğä  	U,ì/ñ 		Ux,ì/ñ		Uy,ì/ñ		Fi,ãğä		lambda,		M,    		cy,   		cx,  		mz,  		dT,Í  		dQ,Í  		dMa,Íì 
+0.122	1.022	 nan	nan	nan	nan	nan	nan	nan	-0.036724	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.144	1.206	 nan	nan	nan	nan	nan	nan	nan	-0.036725	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.166	1.390	 nan	nan	nan	nan	nan	nan	nan	-0.036725	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.188	1.575	 nan	nan	nan	nan	nan	nan	nan	-0.036726	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.210	1.759	 nan	nan	nan	nan	nan	nan	nan	-0.036727	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.232	1.943	 nan	nan	nan	nan	nan	nan	nan	-0.036727	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.253	2.127	 nan	nan	nan	nan	nan	nan	nan	-0.036728	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.275	2.311	 nan	nan	nan	nan	nan	nan	nan	-0.036728	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.297	2.496	 nan	nan	nan	nan	nan	nan	nan	-0.036729	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.319	2.680	 nan	nan	nan	nan	nan	nan	nan	-0.036730	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.341	2.864	 nan	nan	nan	nan	nan	nan	nan	-0.036730	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.366	3.069	 nan	nan	nan	nan	nan	nan	nan	-0.036731	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.385	3.233	 nan	nan	nan	nan	nan	nan	nan	-0.036731	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.407	3.417	 nan	nan	nan	nan	nan	nan	nan	-0.036732	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.429	3.601	 nan	nan	nan	nan	nan	nan	nan	-0.036733	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.451	3.785	 nan	nan	nan	nan	nan	nan	nan	-0.036733	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.473	3.969	 nan	nan	nan	nan	nan	nan	nan	-0.036734	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.495	4.154	 nan	nan	nan	nan	nan	nan	nan	-0.036734	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.517	4.338	 nan	nan	nan	nan	nan	nan	nan	-0.036735	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.539	4.522	 nan	nan	nan	nan	nan	nan	nan	-0.036736	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.561	4.706	 nan	nan	nan	nan	nan	nan	nan	-0.036736	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.583	4.890	 nan	nan	nan	nan	nan	nan	nan	-0.036737	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.605	5.075	 nan	nan	nan	nan	nan	nan	nan	-0.036737	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.627	5.259	 nan	nan	nan	nan	nan	nan	nan	-0.036738	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.649	5.443	 nan	nan	nan	nan	nan	nan	nan	-0.036739	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.671	5.627	 nan	nan	nan	nan	nan	nan	nan	-0.036739	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.693	5.812	 nan	nan	nan	nan	nan	nan	nan	-0.036740	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.715	5.996	 nan	nan	nan	nan	nan	nan	nan	-0.036740	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.737	6.180	 nan	nan	nan	nan	nan	nan	nan	-0.036741	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.758	6.364	 nan	nan	nan	nan	nan	nan	nan	-0.036742	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.780	6.548	 nan	nan	nan	nan	nan	nan	nan	-0.036742	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.802	6.733	 nan	nan	nan	nan	nan	nan	nan	-0.036743	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.824	6.917	 nan	nan	nan	nan	nan	nan	nan	-0.036743	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.846	7.101	 nan	nan	nan	nan	nan	nan	nan	-0.036744	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.868	7.285	 nan	nan	nan	nan	nan	nan	nan	-0.036745	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.890	7.469	 nan	nan	nan	nan	nan	nan	nan	-0.036745	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.912	7.654	 nan	nan	nan	nan	nan	nan	nan	-0.036746	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.934	7.838	 nan	nan	nan	nan	nan	nan	nan	-0.036746	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.956	8.022	 nan	nan	nan	nan	nan	nan	nan	-0.036747	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	nan	0.000000	nan	nan	nan
+0.978	8.206	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	nan	0.000000	nan	nan	nan
+1.000	8.391	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	nan	0.000000	nan	nan	nan
+----------------------------------------------------------------------
+mr.blade#        	3
+mr.b2.psi0=         	216.0000
+mr.b2.psi=          	216.0000
+mr.b2.fi07=         	nan
+mr.b2.dfi07=        	nan
+mr.b2.d2fi07=       	nan
+mr.b2.gama=         	nan
+mr.b2.dgama=        	nan
+mr.b2.d2gama=       	nan
+mr.b2.beta=         	nan
+mr.b2.dbeta=        	nan
+mr.b2.d2beta=       	nan
+mr.b2.ksi=          	nan
+mr.b2.dksi=         	nan
+mr.b2.d2ksi=        	nan
+mr.b2.T=            	nan
+mr.b2.Q=            	nan
+mr.b2.Ma=           	nan
+mr.b2.H=            	nan
+mr.b2.S=            	nan
+mr.b2.Nr=           	nan
+mr.b2.Nf=           	nan
+mr.b2.K=            	nan
+mr.b2.P1=           	nan
+mr.b2.P2=           	nan
+mr.b2.Fdmp=         	0.0
+mr.b2.Fpov=         	nan
+mr.b2.Paxz=         	-0.0
+mr.b2.Payy=         	0.0
+mr.b2.Fdmp=         	0.0
+mr.b2.Fy=           	nan
+mr.b2.Fx=           	nan
+mr.b2.Fz=           	nan
+mr.b2.M1T=          	nan
+mr.b2.M1Q=          	nan
+mr.b2.M1Gx=         	nan
+mr.b2.M1Gy=         	0.0
+mr.b2.M1K=          	nan
+mr.b2.M1Cx=         	nan
+mr.b2.M1Cy=         	nan
+mr.b2.M1Px=         	nan
+mr.b2.M1Py=         	nan
+mr.b2.M1x=          	nan
+mr.b2.M1y=          	nan
+mr.b2.M1z=          	0.0
+mr.b2.M2T=          	nan
+mr.b2.M2Q=          	nan
+mr.b2.M2Gx=         	nan
+mr.b2.M2Gy=         	0.0
+mr.b2.M2K=          	nan
+mr.b2.M2Cx=         	nan
+mr.b2.M2Cy=         	nan
+mr.b2.M2Px=         	nan
+mr.b2.M2Py=         	nan
+mr.b2.M2D=          	0.0
+mr.b2.M2x=          	nan
+mr.b2.M2y=          	nan
+mr.b2.M2z=          	0.0
+mr.b2.M3Ma=         	nan
+mr.b2.M3cb=         	nan
+mr.b2.M3su=         	nan
+mr.b2.M3tr=         	nan
+mr.b2.M3i=          	nan
+mr.b2.M3x=          	0.0
+mr.b2.M3y=          	0.0
+mr.b2.M3z=          	nan
+mr.b2.Fxh=          	nan
+mr.b2.Fyh=          	nan
+mr.b2.Fzh=          	nan
+mr.b2.Mxh=          	nan
+mr.b2.Myh=          	nan
+mr.b2.Mzh=          	nan
+_r,   	r,ì   	 alfr,ãğä  	fi,ãğä		gama,ãğä  	U,ì/ñ 		Ux,ì/ñ		Uy,ì/ñ		Fi,ãğä		lambda,		M,    		cy,   		cx,  		mz,  		dT,Í  		dQ,Í  		dMa,Íì 
+0.122	1.022	 nan	nan	nan	nan	nan	nan	nan	-0.036712	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.144	1.206	 nan	nan	nan	nan	nan	nan	nan	-0.036711	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.166	1.390	 nan	nan	nan	nan	nan	nan	nan	-0.036709	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.188	1.575	 nan	nan	nan	nan	nan	nan	nan	-0.036707	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.210	1.759	 nan	nan	nan	nan	nan	nan	nan	-0.036706	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.232	1.943	 nan	nan	nan	nan	nan	nan	nan	-0.036704	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.253	2.127	 nan	nan	nan	nan	nan	nan	nan	-0.036703	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.275	2.311	 nan	nan	nan	nan	nan	nan	nan	-0.036701	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.297	2.496	 nan	nan	nan	nan	nan	nan	nan	-0.036700	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.319	2.680	 nan	nan	nan	nan	nan	nan	nan	-0.036698	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.341	2.864	 nan	nan	nan	nan	nan	nan	nan	-0.036696	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.366	3.069	 nan	nan	nan	nan	nan	nan	nan	-0.036695	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.385	3.233	 nan	nan	nan	nan	nan	nan	nan	-0.036693	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.407	3.417	 nan	nan	nan	nan	nan	nan	nan	-0.036692	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.429	3.601	 nan	nan	nan	nan	nan	nan	nan	-0.036690	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.451	3.785	 nan	nan	nan	nan	nan	nan	nan	-0.036689	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.473	3.969	 nan	nan	nan	nan	nan	nan	nan	-0.036687	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.495	4.154	 nan	nan	nan	nan	nan	nan	nan	-0.036685	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.517	4.338	 nan	nan	nan	nan	nan	nan	nan	-0.036684	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.539	4.522	 nan	nan	nan	nan	nan	nan	nan	-0.036682	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.561	4.706	 nan	nan	nan	nan	nan	nan	nan	-0.036681	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.583	4.890	 nan	nan	nan	nan	nan	nan	nan	-0.036679	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.605	5.075	 nan	nan	nan	nan	nan	nan	nan	-0.036678	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.627	5.259	 nan	nan	nan	nan	nan	nan	nan	-0.036676	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.649	5.443	 nan	nan	nan	nan	nan	nan	nan	-0.036674	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.671	5.627	 nan	nan	nan	nan	nan	nan	nan	-0.036673	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.693	5.812	 nan	nan	nan	nan	nan	nan	nan	-0.036671	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.715	5.996	 nan	nan	nan	nan	nan	nan	nan	-0.036670	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.737	6.180	 nan	nan	nan	nan	nan	nan	nan	-0.036668	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.758	6.364	 nan	nan	nan	nan	nan	nan	nan	-0.036667	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.780	6.548	 nan	nan	nan	nan	nan	nan	nan	-0.036665	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.802	6.733	 nan	nan	nan	nan	nan	nan	nan	-0.036663	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.824	6.917	 nan	nan	nan	nan	nan	nan	nan	-0.036662	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.846	7.101	 nan	nan	nan	nan	nan	nan	nan	-0.036660	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.868	7.285	 nan	nan	nan	nan	nan	nan	nan	-0.036659	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.890	7.469	 nan	nan	nan	nan	nan	nan	nan	-0.036657	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.912	7.654	 nan	nan	nan	nan	nan	nan	nan	-0.036655	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.934	7.838	 nan	nan	nan	nan	nan	nan	nan	-0.036654	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.956	8.022	 nan	nan	nan	nan	nan	nan	nan	-0.036652	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036651	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036651	nan	0.000000	nan	0.000000	nan	nan	nan
+0.978	8.206	 nan	nan	nan	nan	nan	nan	nan	-0.036651	nan	0.000000	nan	0.000000	nan	nan	nan
+1.000	8.391	 nan	nan	nan	nan	nan	nan	nan	-0.036649	nan	0.000000	nan	0.000000	nan	nan	nan
+----------------------------------------------------------------------
+mr.blade#        	4
+mr.b3.psi0=         	144.0000
+mr.b3.psi=          	144.0000
+mr.b3.fi07=         	nan
+mr.b3.dfi07=        	nan
+mr.b3.d2fi07=       	nan
+mr.b3.gama=         	nan
+mr.b3.dgama=        	nan
+mr.b3.d2gama=       	nan
+mr.b3.beta=         	nan
+mr.b3.dbeta=        	nan
+mr.b3.d2beta=       	nan
+mr.b3.ksi=          	nan
+mr.b3.dksi=         	nan
+mr.b3.d2ksi=        	nan
+mr.b3.T=            	nan
+mr.b3.Q=            	nan
+mr.b3.Ma=           	nan
+mr.b3.H=            	nan
+mr.b3.S=            	nan
+mr.b3.Nr=           	nan
+mr.b3.Nf=           	nan
+mr.b3.K=            	nan
+mr.b3.P1=           	nan
+mr.b3.P2=           	nan
+mr.b3.Fdmp=         	0.0
+mr.b3.Fpov=         	nan
+mr.b3.Paxz=         	-0.0
+mr.b3.Payy=         	0.0
+mr.b3.Fdmp=         	0.0
+mr.b3.Fy=           	nan
+mr.b3.Fx=           	nan
+mr.b3.Fz=           	nan
+mr.b3.M1T=          	nan
+mr.b3.M1Q=          	nan
+mr.b3.M1Gx=         	nan
+mr.b3.M1Gy=         	0.0
+mr.b3.M1K=          	nan
+mr.b3.M1Cx=         	nan
+mr.b3.M1Cy=         	nan
+mr.b3.M1Px=         	nan
+mr.b3.M1Py=         	nan
+mr.b3.M1x=          	nan
+mr.b3.M1y=          	nan
+mr.b3.M1z=          	0.0
+mr.b3.M2T=          	nan
+mr.b3.M2Q=          	nan
+mr.b3.M2Gx=         	nan
+mr.b3.M2Gy=         	0.0
+mr.b3.M2K=          	nan
+mr.b3.M2Cx=         	nan
+mr.b3.M2Cy=         	nan
+mr.b3.M2Px=         	nan
+mr.b3.M2Py=         	nan
+mr.b3.M2D=          	0.0
+mr.b3.M2x=          	nan
+mr.b3.M2y=          	nan
+mr.b3.M2z=          	0.0
+mr.b3.M3Ma=         	nan
+mr.b3.M3cb=         	nan
+mr.b3.M3su=         	nan
+mr.b3.M3tr=         	nan
+mr.b3.M3i=          	nan
+mr.b3.M3x=          	0.0
+mr.b3.M3y=          	0.0
+mr.b3.M3z=          	nan
+mr.b3.Fxh=          	nan
+mr.b3.Fyh=          	nan
+mr.b3.Fzh=          	nan
+mr.b3.Mxh=          	nan
+mr.b3.Myh=          	nan
+mr.b3.Mzh=          	nan
+_r,   	r,ì   	 alfr,ãğä  	fi,ãğä		gama,ãğä  	U,ì/ñ 		Ux,ì/ñ		Uy,ì/ñ		Fi,ãğä		lambda,		M,    		cy,   		cx,  		mz,  		dT,Í  		dQ,Í  		dMa,Íì 
+0.122	1.022	 nan	nan	nan	nan	nan	nan	nan	-0.036712	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.144	1.206	 nan	nan	nan	nan	nan	nan	nan	-0.036711	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.166	1.390	 nan	nan	nan	nan	nan	nan	nan	-0.036709	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.188	1.575	 nan	nan	nan	nan	nan	nan	nan	-0.036707	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.210	1.759	 nan	nan	nan	nan	nan	nan	nan	-0.036706	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.232	1.943	 nan	nan	nan	nan	nan	nan	nan	-0.036704	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.253	2.127	 nan	nan	nan	nan	nan	nan	nan	-0.036703	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.275	2.311	 nan	nan	nan	nan	nan	nan	nan	-0.036701	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.297	2.496	 nan	nan	nan	nan	nan	nan	nan	-0.036700	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.319	2.680	 nan	nan	nan	nan	nan	nan	nan	-0.036698	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.341	2.864	 nan	nan	nan	nan	nan	nan	nan	-0.036696	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.366	3.069	 nan	nan	nan	nan	nan	nan	nan	-0.036695	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.385	3.233	 nan	nan	nan	nan	nan	nan	nan	-0.036693	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.407	3.417	 nan	nan	nan	nan	nan	nan	nan	-0.036692	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.429	3.601	 nan	nan	nan	nan	nan	nan	nan	-0.036690	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.451	3.785	 nan	nan	nan	nan	nan	nan	nan	-0.036689	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.473	3.969	 nan	nan	nan	nan	nan	nan	nan	-0.036687	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.495	4.154	 nan	nan	nan	nan	nan	nan	nan	-0.036685	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.517	4.338	 nan	nan	nan	nan	nan	nan	nan	-0.036684	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.539	4.522	 nan	nan	nan	nan	nan	nan	nan	-0.036682	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.561	4.706	 nan	nan	nan	nan	nan	nan	nan	-0.036681	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.583	4.890	 nan	nan	nan	nan	nan	nan	nan	-0.036679	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.605	5.075	 nan	nan	nan	nan	nan	nan	nan	-0.036678	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.627	5.259	 nan	nan	nan	nan	nan	nan	nan	-0.036676	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.649	5.443	 nan	nan	nan	nan	nan	nan	nan	-0.036674	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.671	5.627	 nan	nan	nan	nan	nan	nan	nan	-0.036673	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.693	5.812	 nan	nan	nan	nan	nan	nan	nan	-0.036671	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.715	5.996	 nan	nan	nan	nan	nan	nan	nan	-0.036670	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.737	6.180	 nan	nan	nan	nan	nan	nan	nan	-0.036668	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.758	6.364	 nan	nan	nan	nan	nan	nan	nan	-0.036667	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.780	6.548	 nan	nan	nan	nan	nan	nan	nan	-0.036665	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.802	6.733	 nan	nan	nan	nan	nan	nan	nan	-0.036663	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.824	6.917	 nan	nan	nan	nan	nan	nan	nan	-0.036662	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.846	7.101	 nan	nan	nan	nan	nan	nan	nan	-0.036660	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.868	7.285	 nan	nan	nan	nan	nan	nan	nan	-0.036659	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.890	7.469	 nan	nan	nan	nan	nan	nan	nan	-0.036657	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.912	7.654	 nan	nan	nan	nan	nan	nan	nan	-0.036655	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.934	7.838	 nan	nan	nan	nan	nan	nan	nan	-0.036654	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.956	8.022	 nan	nan	nan	nan	nan	nan	nan	-0.036652	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036651	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036651	nan	0.000000	nan	0.000000	nan	nan	nan
+0.978	8.206	 nan	nan	nan	nan	nan	nan	nan	-0.036651	nan	0.000000	nan	0.000000	nan	nan	nan
+1.000	8.391	 nan	nan	nan	nan	nan	nan	nan	-0.036649	nan	0.000000	nan	0.000000	nan	nan	nan
+----------------------------------------------------------------------
+mr.blade#        	5
+mr.b4.psi0=         	72.0000
+mr.b4.psi=          	72.0000
+mr.b4.fi07=         	nan
+mr.b4.dfi07=        	nan
+mr.b4.d2fi07=       	nan
+mr.b4.gama=         	nan
+mr.b4.dgama=        	nan
+mr.b4.d2gama=       	nan
+mr.b4.beta=         	nan
+mr.b4.dbeta=        	nan
+mr.b4.d2beta=       	nan
+mr.b4.ksi=          	nan
+mr.b4.dksi=         	nan
+mr.b4.d2ksi=        	nan
+mr.b4.T=            	nan
+mr.b4.Q=            	nan
+mr.b4.Ma=           	nan
+mr.b4.H=            	nan
+mr.b4.S=            	nan
+mr.b4.Nr=           	nan
+mr.b4.Nf=           	nan
+mr.b4.K=            	nan
+mr.b4.P1=           	nan
+mr.b4.P2=           	nan
+mr.b4.Fdmp=         	0.0
+mr.b4.Fpov=         	nan
+mr.b4.Paxz=         	0.0
+mr.b4.Payy=         	0.0
+mr.b4.Fdmp=         	0.0
+mr.b4.Fy=           	nan
+mr.b4.Fx=           	nan
+mr.b4.Fz=           	nan
+mr.b4.M1T=          	nan
+mr.b4.M1Q=          	nan
+mr.b4.M1Gx=         	nan
+mr.b4.M1Gy=         	0.0
+mr.b4.M1K=          	nan
+mr.b4.M1Cx=         	nan
+mr.b4.M1Cy=         	nan
+mr.b4.M1Px=         	nan
+mr.b4.M1Py=         	nan
+mr.b4.M1x=          	nan
+mr.b4.M1y=          	nan
+mr.b4.M1z=          	0.0
+mr.b4.M2T=          	nan
+mr.b4.M2Q=          	nan
+mr.b4.M2Gx=         	nan
+mr.b4.M2Gy=         	0.0
+mr.b4.M2K=          	nan
+mr.b4.M2Cx=         	nan
+mr.b4.M2Cy=         	nan
+mr.b4.M2Px=         	nan
+mr.b4.M2Py=         	nan
+mr.b4.M2D=          	0.0
+mr.b4.M2x=          	nan
+mr.b4.M2y=          	nan
+mr.b4.M2z=          	0.0
+mr.b4.M3Ma=         	nan
+mr.b4.M3cb=         	nan
+mr.b4.M3su=         	nan
+mr.b4.M3tr=         	nan
+mr.b4.M3i=          	nan
+mr.b4.M3x=          	0.0
+mr.b4.M3y=          	0.0
+mr.b4.M3z=          	nan
+mr.b4.Fxh=          	nan
+mr.b4.Fyh=          	nan
+mr.b4.Fzh=          	nan
+mr.b4.Mxh=          	nan
+mr.b4.Myh=          	nan
+mr.b4.Mzh=          	nan
+_r,   	r,ì   	 alfr,ãğä  	fi,ãğä		gama,ãğä  	U,ì/ñ 		Ux,ì/ñ		Uy,ì/ñ		Fi,ãğä		lambda,		M,    		cy,   		cx,  		mz,  		dT,Í  		dQ,Í  		dMa,Íì 
+0.122	1.022	 nan	nan	nan	nan	nan	nan	nan	-0.036724	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.144	1.206	 nan	nan	nan	nan	nan	nan	nan	-0.036725	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.166	1.390	 nan	nan	nan	nan	nan	nan	nan	-0.036725	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.188	1.575	 nan	nan	nan	nan	nan	nan	nan	-0.036726	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.210	1.759	 nan	nan	nan	nan	nan	nan	nan	-0.036727	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.232	1.943	 nan	nan	nan	nan	nan	nan	nan	-0.036727	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.253	2.127	 nan	nan	nan	nan	nan	nan	nan	-0.036728	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.275	2.311	 nan	nan	nan	nan	nan	nan	nan	-0.036728	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.297	2.496	 nan	nan	nan	nan	nan	nan	nan	-0.036729	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.319	2.680	 nan	nan	nan	nan	nan	nan	nan	-0.036730	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.341	2.864	 nan	nan	nan	nan	nan	nan	nan	-0.036730	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.366	3.069	 nan	nan	nan	nan	nan	nan	nan	-0.036731	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.385	3.233	 nan	nan	nan	nan	nan	nan	nan	-0.036731	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.407	3.417	 nan	nan	nan	nan	nan	nan	nan	-0.036732	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.429	3.601	 nan	nan	nan	nan	nan	nan	nan	-0.036733	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.451	3.785	 nan	nan	nan	nan	nan	nan	nan	-0.036733	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.473	3.969	 nan	nan	nan	nan	nan	nan	nan	-0.036734	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.495	4.154	 nan	nan	nan	nan	nan	nan	nan	-0.036734	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.517	4.338	 nan	nan	nan	nan	nan	nan	nan	-0.036735	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.539	4.522	 nan	nan	nan	nan	nan	nan	nan	-0.036736	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.561	4.706	 nan	nan	nan	nan	nan	nan	nan	-0.036736	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.583	4.890	 nan	nan	nan	nan	nan	nan	nan	-0.036737	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.605	5.075	 nan	nan	nan	nan	nan	nan	nan	-0.036737	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.627	5.259	 nan	nan	nan	nan	nan	nan	nan	-0.036738	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.649	5.443	 nan	nan	nan	nan	nan	nan	nan	-0.036739	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.671	5.627	 nan	nan	nan	nan	nan	nan	nan	-0.036739	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.693	5.812	 nan	nan	nan	nan	nan	nan	nan	-0.036740	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.715	5.996	 nan	nan	nan	nan	nan	nan	nan	-0.036740	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.737	6.180	 nan	nan	nan	nan	nan	nan	nan	-0.036741	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.758	6.364	 nan	nan	nan	nan	nan	nan	nan	-0.036742	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.780	6.548	 nan	nan	nan	nan	nan	nan	nan	-0.036742	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.802	6.733	 nan	nan	nan	nan	nan	nan	nan	-0.036743	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.824	6.917	 nan	nan	nan	nan	nan	nan	nan	-0.036743	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.846	7.101	 nan	nan	nan	nan	nan	nan	nan	-0.036744	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.868	7.285	 nan	nan	nan	nan	nan	nan	nan	-0.036745	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.890	7.469	 nan	nan	nan	nan	nan	nan	nan	-0.036745	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.912	7.654	 nan	nan	nan	nan	nan	nan	nan	-0.036746	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.934	7.838	 nan	nan	nan	nan	nan	nan	nan	-0.036746	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.956	8.022	 nan	nan	nan	nan	nan	nan	nan	-0.036747	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	0.001000	0.000000	nan	nan	nan
+0.975	8.181	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	nan	0.000000	nan	nan	nan
+0.978	8.206	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	nan	0.000000	nan	nan	nan
+1.000	8.391	 nan	nan	nan	nan	nan	nan	nan	-0.036748	nan	0.000000	nan	0.000000	nan	nan	nan
+----------------------------------------------------------------------
+tailrotor
+tr.O.x=          	-12700.0
+tr.O.y=          	2760.0
+tr.O.z=          	709.0
+tr.H=            	0.0
+tr.T=            	-7818.3
+tr.S=            	0.0
+tr.Mx=           	0.0
+tr.My=           	0.0
+tr.Mz=           	0.0
+tr.D=            	3908.0
+tr.solve=        	0
+----------------------------------------------------------------------
+pushrotor
+pr.O.x=          	0.0
+pr.O.y=          	0.0
+pr.O.z=          	0.0
+pr.H=            	0.0
+pr.T=            	0.0
+pr.S=            	0.0
+pr.Mx=           	0.0
+pr.My=           	0.0
+pr.Mz=           	0.0
+pr.D=            	0.0
+pr.solve=        	0
+----------------------------------------------------------------------
+[eof]

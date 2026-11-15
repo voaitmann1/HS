@@ -1,0 +1,7 @@
+ExeFile : D:/Afonin/helisim/run/helisim20230713_norm.exe
+Version : HeliSim 202307
+Initial : D:/Afonin/helisim/ini/mi24_(by_mi8-2023).hs
+Started : 2023.10.18 14:22:55
+CalcMode: расчет винтов с заданным управлением по классической теории
+------------------------------------------------------------------------------------------------------------------------
+cannot open D:/Afonin/helisim/ini/mi8sh.tr
